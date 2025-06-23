@@ -8,6 +8,10 @@
   font-family: italiana;
   src: url("./assets/font/italiana/Italiana-Regular.ttf");
 }
+@font-face {
+  font-family: logofont;
+  src: url("./assets/font/logofont/MeieScript-Regular.ttf");
+}
 
 .bgImage{
   background-image: url("./assets/Image/bg1.jpg");

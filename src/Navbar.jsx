@@ -26,14 +26,15 @@ const Navbar = () => {
 
   ]
   return (
-    <nav className='flex justify-between items-center px-8 py-2 fixed top-0 w-full blurr hover:bg-amber-50'>
+    <nav className='flex justify-between items-center px-8 py-2 fixed top-0 w-full blurr'>
           <div>
             <img src={Logo} alt="" className='w-[70px] h-[70px] rounded-full'/>
           </div>
+          <div className='text-5xl text-emerald-600 absolute left-30 logofont'>SM</div>
           <div className='text-white italiana'>
             {
               navItems.map((nav)=> (
-                  <Link to={nav.path} key={nav.path} className='px-4 py-1 '>{nav.label}</Link>
+                  <Link to={nav.path} key={nav.path} className='px-4 py-1 hover:bg-amber-50 rounded-2xl hover:text-black'>{nav.label}</Link>
               ))
             }
           </div>
