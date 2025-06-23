@@ -26,7 +26,7 @@ const Navbar = () => {
 
   ]
   return (
-    <nav className='flex justify-between items-center px-8 py-2 fixed top-0 w-full blurr'>
+    <nav className='flex justify-between items-center px-8 py-2 fixed top-0 w-full blurr hover:bg-amber-50'>
           <div>
             <img src={Logo} alt="" className='w-[70px] h-[70px] rounded-full'/>
           </div>

@@ -16,7 +16,7 @@ const HeaderBody = () => {
         <div>
           Visit us today. Taste the differece nature makes.
         </div>
-        <button className='border-2 border-rod px-6 py-1 rounded-full bg-rod/20'>Go</button>
+        <button className='border-2 border-rod px-6 py-1 rounded-full bg-rod/20 hover:bg-blacks'>Go</button>
       </div>
     </div>
   )
