@@ -1,6 +1,7 @@
 @import "tailwindcss";
 @theme{
-  --color-rod:#FFB13B
+  --color-rod:#FFB13B;
+  --color-cinnamon:#cc895a
 }
 
 @font-face {
