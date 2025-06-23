@@ -24,3 +24,6 @@
 .blurr{
   backdrop-filter: blur(10px);
 }
+.logofont{
+  font-family: logofont;
+}
