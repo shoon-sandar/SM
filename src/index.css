@@ -1,7 +1,10 @@
 @import "tailwindcss";
 @theme{
   --color-rod:#FFB13B;
-  --color-cinnamon:#cc895a
+  --color-cinnamon:#cc895a;
+  --color-whitePearl:#ebdbc8;
+  --color-bat-blood: #d94560;
+  --color-emerald:#2b7c66
 }
 
 @font-face {
@@ -12,18 +15,33 @@
   font-family: logofont;
   src: url("./assets/font/logofont/MeieScript-Regular.ttf");
 }
+@font-face {
+  font-family: fonarto;
+  src: url("./assets/font/fonarto/Fonarto.ttf");
+}
+
 
 .bgImage{
   background-image: url("./assets/Image/bg1.jpg");
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
 }
 .italiana{
   font-family: italiana;
 }
+.blr{
+  -webkit-backdrop-filter: blur(30px);
+  backdrop-filter: blur(30px);
+  background-color: black;
+}
 .blurr{
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(8px);
+   -webkit-backdrop-filter: blur(8px);
 }
 .logofont{
   font-family: logofont;
+}
+.fonartoFont{
+  font-family: fonarto;
 }

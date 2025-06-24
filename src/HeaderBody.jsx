@@ -12,11 +12,11 @@ const HeaderBody = () => {
       <div className='text-white/60 text-lg pt-6'>
         Step into a world where artisan baking is infused with the delicate charm of fresh bloom.
       </div>
-      <div className='text-white text-lg flex gap-4 pt-4'>
+      <div className='text-white text-lg flex gap-4 pt-4 items-center'>
         <div>
           Visit us today. Taste the differece nature makes.
         </div>
-        <button className='border-2 border-rod px-6 py-1 rounded-full bg-rod/20 hover:bg-rod'>Go</button>
+        <button className='border-2 border-rod px-6 py-1 cursor-pointer rounded-full bg-rod/20 blurr active:bg-black/20'>Go</button>
       </div>
     </div>
   )
