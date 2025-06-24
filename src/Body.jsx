@@ -95,6 +95,20 @@ const Body = () => {
 
 
 
+
+      <div className='w-screen h-screen flex justify-evenly'>
+        <div>
+             <img src={s1} alt="" className='size-70 rounded-3xl' />
+        </div>
+        <div> 
+          <p className='w-30 h-3.5  text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit.Doloribus sit eveniet asperiores nobis officia perferendis,alias tempore doloremque fuga quisquam. Natus quo ad inventore repudiandae,fugiat molestiae nostrum ullam labore!
+          </p>
+        </div>
+
+      </div>
+
+
+
     </div>
   )
 }
