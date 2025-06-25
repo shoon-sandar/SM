@@ -2,7 +2,7 @@ const CardGroup2 = ({imgArr}) => {
   //imgArr [s1,s2,s3,s4]
  
   return (
-    <div className='transition-all duration-150  w-[400px] h-[400px] shadow-black/20 shadow-2xl bg-black/10 rounded-[45px]   hover:shadow-md'>
+    <div className='transition-all duration-150  w-[400px] h-[420px] shadow-black/20 shadow-2xl bg-black/10 rounded-[45px]   hover:shadow-md'>
 
       <div className='flex items-center gap-2 pl-5 pt-2'>
         <div className='w-[6px] h-[6px] rounded-full bg-rod'>
@@ -14,7 +14,7 @@ const CardGroup2 = ({imgArr}) => {
 
       </div>
 
-      <div className='bg-black/20 w-full h-[85%] rounded-2xl mt-2 grid grid-cols-2 grid-rows-2 gap-2 p-2'>
+      <div className='bg-black/20 w-full h-[80%] rounded-2xl mt-2 grid grid-cols-2 grid-rows-2 gap-2 p-2'>
 
       {
         imgArr.map((img, index)=>(
@@ -31,7 +31,7 @@ const CardGroup2 = ({imgArr}) => {
        
       </div>
 
-      <button className='ml-20 mt-5 text-center  w-[200px] h-[40px] border-2 border-rod px-6 py-1 rounded-full bg-cinnamon/80 text-white hover:bg-cinnamon/100 active:bg-cinnamon/50 cursor-pointer'>View Collection</button>
+      <button className='ml-25 mt-5 text-center  w-[200px] h-[40px] border-2 border-rod px-6 py-1 rounded-full bg-cinnamon/80 text-white hover:bg-cinnamon/100 active:bg-cinnamon/50 cursor-pointer'>View Collection</button>
 
     </div>
   );
