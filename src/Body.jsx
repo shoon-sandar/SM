@@ -1,115 +1,110 @@
-import React from 'react'
 import s1 from "./assets/Image/services/service1/breadLoaf.jpg"
 import s2 from "./assets/Image/services/service1/butter.webp"
 import s3 from "./assets/Image/services/service1/freshBaguette.jpg"
 import s4 from "./assets/Image/services/service1/mozzarella.webp"
+import s5 from "./assets/Image/services/service-group-2/cake2.jpeg"
+import s6 from "./assets/Image/services/service-group-2/cake1.webp"
+import s7 from "./assets/Image/services/service-group-2/cake3.jpg"
+import s8 from "./assets/Image/services/service-group-2/cake4.webp"
+import s9 from "./assets/Image/services/service-group-3/cakeAndFlower1.jpg"
+import s10 from "./assets/Image/services/service-group-3/cakeAndFlower2.webp"
+import s11 from "./assets/Image/services/service-group-3/cakeAndFlower3.webp"
+import s12 from "./assets/Image/services/service-group-3/flower1.webp"
+import CardGroup1 from './CardGroup1'
+import CardGroup2 from "./CardGroup2"
+import CardGroup3 from "./CardGroup3"
+
 const Body = () => {
+  const group1Services=[
+    {
+      image:s1,
+      title:"Golden Crust"
+    },
+    {
+      image:s2,
+      title:"Creme de lait"
+    },
+    {
+      image:s3,
+      title:"La Miche"
+    },
+    {
+      image:s4,
+      title:"Aged Elegance"
+    },
+  ]
+  const group2Service=[
+    {
+      image:s5,
+      title:"Coca Royale"
+    },
+    {
+      image:s6,
+      title:"Frosted Porcelain"
+    },
+    {
+      image:s7,
+      title:"Pink Chantilly"
+    },
+    {
+      image:s8,
+      title:"Cherry Crescendo"
+    },
+  ]
+  const group3Service=[
+    {
+      image:s9,
+      title:"Peony & Pastry"
+    },
+    {
+      image:s10,
+      title:"Darden Romance"
+    },
+    {
+      image:s11,
+      title:"Lavender Lace"
+    },
+    {
+      image:s12,
+      title:"Chroma Bloom"
+    },
+  ]
   return (
-    <div>
+  
+    <div className='w-screen h-screen'>
       <div className='border-l-4 border-l-rod text-[1.5rem] font-light pl-4  ml-4 mt-4'>
         Your Sweet Options
       </div>
 
       <div className='w-full p-8 flex justify-between gap-2 ' >
-        <div className='transition-all duration-150 cursor-pointer  w-[400px] h-[350px] shadow-black/20 shadow-2xl bg-black/10 rounded-[45px]   hover:shadow-md'>
 
-          <div className='flex items-center gap-2 pl-5 pt-2'>
-            <div className='w-[6px] h-[6px] rounded-full bg-rod'>
+        <CardGroup1
+          imgArr={group1Services}
+        />
 
-            </div>
-            <div className='font-light text-[1.2rem]'>
-              Gourmet Essentials
-            </div>
+         <CardGroup2
+          imgArr={group2Service}
+        />
 
-          </div>
-
-          <div className='bg-black/20 w-full h-[75%] rounded-2xl mt-2 grid grid-cols-2 grid-rows-2 gap-2 p-2'>
-            <img src={s1} alt="" className='w-full  h-full rounded-xl' />
-            <img src={s2} alt="" className='w-full  h-full rounded-xl' />
-            <img src={s3} alt="" className='w-full  h-full rounded-xl' />
-            <img src={s4} alt="" className='w-full h-full rounded-xl' />
-
-          </div>
-
-          <button className='ml-20 mt-5 text-center  w-[200px] cursor-pointer h-[40px] border-2 border-rod px-6 py-1 rounded-full bg-cinnamon/80 text-white hover:bg-cinnamon/100 active:bg-cinnamon/50'>View Collection</button>
+         <CardGroup3
+          imgArr={group3Service}
+        />
 
         </div>
-      </div>
-
-
-
-       <div className='w-full p-8 flex justify-between gap-2 ' >
-        <div className='transition-all duration-150 cursor-pointer  w-[400px] h-[350px] shadow-black/20 shadow-2xl bg-black/10 rounded-[45px]   hover:shadow-md'>
-
-          <div className='flex items-center gap-2 pl-5 pt-2'>
-            <div className='w-[6px] h-[6px] rounded-full bg-rod'>
-
-            </div>
-            <div className='font-light text-[1.2rem]'>
-              Gourmet Essentials
-            </div>
-
-          </div>
-
-          <div className='bg-black/20 w-full h-[75%] rounded-2xl mt-2 grid grid-cols-2 grid-rows-2 gap-2 p-2'>
-            <img src={s1} alt="" className='w-full  h-full rounded-xl' />
-            <img src={s2} alt="" className='w-full  h-full rounded-xl' />
-            <img src={s3} alt="" className='w-full  h-full rounded-xl' />
-            <img src={s4} alt="" className='w-full h-full rounded-xl' />
-
-          </div>
-
-          <button className='ml-20 mt-5 text-center  w-[200px] cursor-pointer h-[40px] border-2 border-rod px-6 py-1 rounded-full bg-cinnamon/80 text-white hover:bg-cinnamon/100 active:bg-cinnamon/50'>View Collection</button>
-
-        </div>
-      </div>
-
-
-
-
-       <div className='w-full p-8 flex justify-between gap-2 ' >
-        <div className='transition-all duration-150 cursor-pointer  w-[400px] h-[350px] shadow-black/20 shadow-2xl bg-black/10 rounded-[45px]   hover:shadow-md'>
-
-          <div className='flex items-center gap-2 pl-5 pt-2'>
-            <div className='w-[6px] h-[6px] rounded-full bg-rod'>
-
-            </div>
-            <div className='font-light text-[1.2rem]'>
-              Gourmet Essentials
-            </div>
-
-          </div>
-
-          <div className='bg-black/20 w-full h-[75%] rounded-2xl mt-2 grid grid-cols-2 grid-rows-2 gap-2 p-2'>
-            <img src={s1} alt="" className='w-full  h-full rounded-xl' />
-            <img src={s2} alt="" className='w-full  h-full rounded-xl' />
-            <img src={s3} alt="" className='w-full  h-full rounded-xl' />
-            <img src={s4} alt="" className='w-full h-full rounded-xl' />
-
-          </div>
-
-          <button className='ml-20 mt-5 text-center  w-[200px] cursor-pointer h-[40px] border-2 border-rod px-6 py-1 rounded-full bg-cinnamon/80 text-white hover:bg-cinnamon/100 active:bg-cinnamon/50'>View Collection</button>
-
-        </div>
-      </div>
-
-
-
-
-      <div className='w-screen h-screen flex justify-evenly'>
         <div>
-             <img src={s1} alt="" className='size-70 rounded-3xl' />
+         
         </div>
-        <div> 
-          <p className='w-30 h-3.5  text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit.Doloribus sit eveniet asperiores nobis officia perferendis,alias tempore doloremque fuga quisquam. Natus quo ad inventore repudiandae,fugiat molestiae nostrum ullam labore!
-          </p>
-        </div>
-
-      </div>
+        
 
 
 
+
+
+
+
+      
     </div>
+  
   )
 }
 

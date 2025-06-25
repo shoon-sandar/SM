@@ -5,20 +5,20 @@ import HeaderBody from './HeaderBody'
 const App = () => {
   return (
     <>
-    
-    <div className='w-screen h-screen bgImage'>
-      <div className='w-full h-full bg-black/20'>
-        <Navbar/>
-        <HeaderBody/>
+
+      <div className='w-screen h-screen bgImage'>
+        <div className='w-full h-full bg-black/20'>
+          <Navbar />
+          <HeaderBody />
+        </div>
+
+        <Body />
       </div>
 
-      <Body/>
-    </div>
 
 
+    </>
 
-  </>
-  
   )
 }
 
