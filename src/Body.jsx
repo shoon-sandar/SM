@@ -13,8 +13,41 @@ import s12 from "./assets/Image/services/service-group-3/flower1.webp"
 import CardGroup1 from './CardGroup1'
 import CardGroup2 from "./CardGroup2"
 import CardGroup3 from "./CardGroup3"
-
+import FeatureItems from "./FeatureItems"
+import f1 from "./assets/Image/featuredItems/strawCream.jpg"
+import f2 from "./assets/Image/featuredItems/f5.jpg"
+import f3 from "./assets/Image/featuredItems/f2.jpg"
+import f4 from "./assets/Image/featuredItems/f3.jpg"
+import f5 from "./assets/Image/featuredItems/f4.jpg"
+import { Features } from "tailwindcss"
 const Body = () => {
+  const features=[
+    {
+      image:f1,
+      title:"Japanese Milk Bread Roll",
+      rating:4,
+    },
+    {
+      image:f2,
+      title:"Japanese Strawberry Cupcake",
+      rating:5,
+    },
+    {
+      image:f3,
+      title:"Japanese Strawberry Tiramisu",
+      rating:4,
+    },
+    {
+      image:f4,
+      title:"Dark Chocolate Strawberry ",
+      rating:5,
+    },
+    {
+      image:f5,
+       title:"Mangosteen Cupcake",
+      rating:5,
+    },
+  ]
   const group1Services=[
     {
       image:s1,
@@ -95,7 +128,9 @@ const Body = () => {
          
         </div>
         
-
+       <FeatureItems
+       fitems={features}
+       />
 
 
 

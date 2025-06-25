@@ -18,8 +18,8 @@ const CardGroup2 = ({imgArr}) => {
 
       {
         imgArr.map((img, index)=>(
-           <div className="w-full h-full relative mainServiceImage">
-               <img key={index} src={img.image} alt="" className='w-full h-full rounded-xl cursor-pointer' />
+           <div key={index} className="w-full h-full relative mainServiceImage">
+               <img src={img.image} alt="" className='w-full h-full rounded-xl cursor-pointer' />
                <div className="bg-black/70 rounded-xl w-full h-full absolute inset-0 childServiceImage text-white flex justify-center items-center">
                   
                     {img.title}
@@ -30,8 +30,10 @@ const CardGroup2 = ({imgArr}) => {
       }
        
       </div>
-
-      <button className='ml-25 mt-5 text-center  w-[200px] h-[40px] border-2 border-rod px-6 py-1 rounded-full bg-cinnamon/80 text-white hover:bg-cinnamon/100 active:bg-cinnamon/50 cursor-pointer'>View Collection</button>
+        <div className="w-full flex justify-center mt-5">
+          <button className="text-center  w-[200px] h-[40px] border-2 border-rod px-6 py-1 rounded-full bg-cinnamon/80 text-white hover:bg-cinnamon/100 active:bg-cinnamon/50 cursor-pointer">View Collection</button>
+        </div>
+      
 
     </div>
   );
