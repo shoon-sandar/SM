@@ -2,7 +2,7 @@ const CardGroup3 = ({imgArr}) => {
   //imgArr [s1,s2,s3,s4]
  
   return (
-    <div className='transition-all duration-150  w-[400px] h-[350px] shadow-black/20 shadow-2xl bg-black/10 rounded-[45px]   hover:shadow-md'>
+    <div className='transition-all duration-150  w-[400px] h-[400px] shadow-black/20 shadow-2xl bg-black/10 rounded-[45px]   hover:shadow-md'>
 
       <div className='flex items-center gap-2 pl-5 pt-2'>
         <div className='w-[6px] h-[6px] rounded-full bg-rod'>
@@ -14,7 +14,7 @@ const CardGroup3 = ({imgArr}) => {
 
       </div>
 
-      <div className='bg-black/20 w-full h-[80%] rounded-2xl mt-2 grid grid-cols-2 grid-rows-2 gap-2 p-2'>
+      <div className='bg-black/20 w-full h-[85%] rounded-2xl mt-2 grid grid-cols-2 grid-rows-2 gap-2 p-2'>
 
       {
         imgArr.map((img, index)=>(
