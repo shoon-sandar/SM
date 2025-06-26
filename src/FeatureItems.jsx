@@ -2,7 +2,7 @@ import React from 'react'
 
 const FeatureItems = ({ fitems }) => {
     return (
-        <div className='w-full h-full p-8'>
+        <div className='w-full p-8'>
             <div className='mb-5'>
                 ⭐️ Best Seller Items
             </div>

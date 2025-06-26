@@ -20,6 +20,7 @@ import f3 from "./assets/Image/featuredItems/f2.jpg"
 import f4 from "./assets/Image/featuredItems/f3.jpg"
 import f5 from "./assets/Image/featuredItems/f4.jpg"
 import { Features } from "tailwindcss"
+import Aboutus from "./Aboutus"
 const Body = () => {
   const features=[
     {
@@ -131,6 +132,8 @@ const Body = () => {
        <FeatureItems
        fitems={features}
        />
+
+       <Aboutus/>
 
 
 
