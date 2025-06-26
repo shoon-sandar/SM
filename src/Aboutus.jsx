@@ -7,7 +7,7 @@ const Aboutus = () => {
   return (
     <div className=' px-4 py-10 flex gap-10 w-[55vw]'>
 
-      <img src={img1} alt="" className='w-[350px] h-[400px] rounded-[3rem] ' />
+      <img src={img1} alt="" className='w-[350px] h-[450px] rounded-[3rem] ' />
 
       <div>
         <div className='flex gap-2 items-center'>
