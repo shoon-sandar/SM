@@ -26,7 +26,7 @@ const Navbar = () => {
 
   ]
   return (
-    <nav className='flex justify-between items-center px-8 py-2 fixed top-0 w-full blurr z-50'>
+    <nav className='flex justify-between items-center px-8 py-2 fixed top-0 w-full blurr z-50 bg-black/40'>
       <div className='flex items-center gap-2'>
         <img src={Logo} alt="" className='w-[60px] h-[60px] rounded-full' />
         <div className='text-[1.5rem] text-whitePearl fonartoFont flex flex-col'>
@@ -41,7 +41,10 @@ const Navbar = () => {
       <div className='text-white italiana'>
         {
           navItems.map((nav) => (
-            <Link to={nav.path} key={nav.path} className='px-4 py-1 hover:bg-amber-50 rounded-2xl hover:text-black active:bg-amber-50/50'>{nav.label}</Link>
+            <Link
+              to={nav.path}
+              key={nav.path}
+              className={`${location.pathname === nav.path ? 'bg-rod/40' : 'hover:bg-black/40'} px-4 py-1 hover:bg-amber-50 rounded-2xl hover:text-black active:bg-amber-50/50`}>{nav.label}</Link>
           ))
         }
       </div>
