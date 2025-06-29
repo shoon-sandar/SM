@@ -21,90 +21,91 @@ import f4 from "./assets/Image/featuredItems/f3.jpg"
 import f5 from "./assets/Image/featuredItems/f4.jpg"
 import { Features } from "tailwindcss"
 import Aboutus from "./Aboutus"
+import Footer from "./Footer"
 const Body = () => {
-  const features=[
+  const features = [
     {
-      image:f1,
-      title:"Japanese Milk Bread Roll",
-      rating:4,
+      image: f1,
+      title: "Japanese Milk Bread Roll",
+      rating: 4,
     },
     {
-      image:f2,
-      title:"Japanese Strawberry Cupcake",
-      rating:5,
+      image: f2,
+      title: "Japanese Strawberry Cupcake",
+      rating: 5,
     },
     {
-      image:f3,
-      title:"Japanese Strawberry Tiramisu",
-      rating:4,
+      image: f3,
+      title: "Japanese Strawberry Tiramisu",
+      rating: 4,
     },
     {
-      image:f4,
-      title:"Dark Chocolate Strawberry ",
-      rating:5,
+      image: f4,
+      title: "Dark Chocolate Strawberry ",
+      rating: 5,
     },
     {
-      image:f5,
-       title:"Mangosteen Cupcake",
-      rating:5,
-    },
-  ]
-  const group1Services=[
-    {
-      image:s1,
-      title:"Golden Crust"
-    },
-    {
-      image:s2,
-      title:"Creme de lait"
-    },
-    {
-      image:s3,
-      title:"La Miche"
-    },
-    {
-      image:s4,
-      title:"Aged Elegance"
+      image: f5,
+      title: "Mangosteen Cupcake",
+      rating: 5,
     },
   ]
-  const group2Service=[
+  const group1Services = [
     {
-      image:s5,
-      title:"Coca Royale"
+      image: s1,
+      title: "Golden Crust"
     },
     {
-      image:s6,
-      title:"Frosted Porcelain"
+      image: s2,
+      title: "Creme de lait"
     },
     {
-      image:s7,
-      title:"Pink Chantilly"
+      image: s3,
+      title: "La Miche"
     },
     {
-      image:s8,
-      title:"Cherry Crescendo"
+      image: s4,
+      title: "Aged Elegance"
     },
   ]
-  const group3Service=[
+  const group2Service = [
     {
-      image:s9,
-      title:"Peony & Pastry"
+      image: s5,
+      title: "Coca Royale"
     },
     {
-      image:s10,
-      title:"Darden Romance"
+      image: s6,
+      title: "Frosted Porcelain"
     },
     {
-      image:s11,
-      title:"Lavender Lace"
+      image: s7,
+      title: "Pink Chantilly"
     },
     {
-      image:s12,
-      title:"Chroma Bloom"
+      image: s8,
+      title: "Cherry Crescendo"
+    },
+  ]
+  const group3Service = [
+    {
+      image: s9,
+      title: "Peony & Pastry"
+    },
+    {
+      image: s10,
+      title: "Darden Romance"
+    },
+    {
+      image: s11,
+      title: "Lavender Lace"
+    },
+    {
+      image: s12,
+      title: "Chroma Bloom"
     },
   ]
   return (
-  
+
     <div className='w-screen h-screen'>
       <div className='border-l-4 border-l-rod text-[1.5rem] font-light pl-4  ml-4 mt-4'>
         Your Sweet Options
@@ -116,33 +117,35 @@ const Body = () => {
           imgArr={group1Services}
         />
 
-         <CardGroup2
+        <CardGroup2
           imgArr={group2Service}
         />
 
-         <CardGroup3
+        <CardGroup3
           imgArr={group3Service}
         />
 
-        </div>
-        <div>
-         
-        </div>
-        
-       <FeatureItems
-       fitems={features}
-       />
+      </div>
+      <div>
 
-       <Aboutus/>
+      </div>
 
+      <FeatureItems
+        fitems={features}
+      />
 
+      <Aboutus />
 
-
+      <Footer/>
 
 
-      
+
+
+
+
+
     </div>
-  
+
   )
 }
 

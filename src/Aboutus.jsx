@@ -44,55 +44,58 @@ const Aboutus = () => {
 
 
 
-                <div className='flex gap-5'>
-                    <div className='flex justify-between mt-6 w-[50%]'>
-                        <div className='bg-rod/30 p-4 rounded-full flex items-center gap-4'>
-                            <div className=' bg-rod/60 rounded-full h-[50px] w-[50px] flex items-center justify-center'>
-                                <img src={baked} alt="" className='w-[25px]' />
-                            </div>
-                            <div className='text-wrap'>
-                                <div>100% </div>
-                                <div>Freshness</div>
-                            </div>
+                <div className='flex gap-2 mt-6'>
+
+                    <div className='bg-rod/30 p-4 rounded-full flex items-center gap-4 w-1/2'>
+                        <div className=' bg-rod/60 rounded-full h-[50px] w-[50px] flex items-center justify-center'>
+                            <img src={baked} alt="" className='w-[25px]' />
+                        </div>
+                        <div className='text-wrap'>
+                            <div>100% </div>
+                            <div>Freshness</div>
                         </div>
                     </div>
-                    <div className='flex justify-between mt-6 w-[50%]'>
-                        <div className='bg-amber-800/30 p-4 rounded-full flex items-center gap-4'>
-                            <div className=' bg-bat-blood rounded-full h-[50px] w-[50px] flex items-center justify-center'>
-                                <img src={l1} alt="" className='w-[25px]' />
-                            </div>
-                            <div className='text-wrap'>
-                                <div>Balance </div>
-                                <div>Calories</div>
-                            </div>
+
+
+                    <div className='bg-amber-800/30 p-4 rounded-full flex items-center gap-4 w-1/2'>
+                        <div className=' bg-bat-blood rounded-full h-[50px] w-[50px] flex items-center justify-center'>
+                            <img src={l1} alt="" className='w-[25px]' />
+                        </div>
+                        <div className='text-wrap'>
+                            <div>Balance </div>
+                            <div>Calories</div>
                         </div>
                     </div>
+
+
                 </div>
 
 
-                <div className='flex gap-5'>
-                    <div className='flex justify-between mt-6 w-[50%]'>
-                        <div className='bg-emerald-500/30 p-4 rounded-full flex items-center gap-4'>
-                            <div className=' bg-emerald rounded-full h-[50px] w-[50px] flex items-center justify-center'>
-                                <img src={l2} alt="" className='w-[25px]' />
-                            </div>
-                            <div className='text-wrap'>
-                                <div>99.99% </div>
-                                <div>Organic</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='flex justify-between mt-6 w-[50%]'>
-                        <div className='bg-fuchsia-700/30 p-4 rounded-full flex items-center gap-4'>
-                            <div className=' bg-fuchsia-600 rounded-full h-[50px] w-[50px] flex items-center justify-center'>
-                                <img src={l3} alt="" className='w-[25px]' />
-                            </div>
-                            <div className='text-wrap'>
-                                <div>Healthy</div>
+                <div className='flex gap-2 mt-2'>
 
-                            </div>
+                    <div className='bg-emerald-500/30 p-4 rounded-full flex items-center gap-4 w-1/2'>
+                        <div className=' bg-emerald rounded-full h-[50px] w-[50px] flex items-center justify-center'>
+                            <img src={l2} alt="" className='w-[25px]' />
+                        </div>
+                        <div className='text-wrap'>
+                            <div>99.99% </div>
+                            <div>Organic</div>
                         </div>
                     </div>
+
+
+                    <div className='bg-fuchsia-700/30 p-4 rounded-full flex items-center gap-4 w-1/2'>
+                        <div className=' bg-fuchsia-500 rounded-full h-[50px] w-[50px] flex items-center justify-center'>
+                            <img src={l3} alt="" className='w-[25px]' />
+                        </div>
+                        <div className='text-wrap'>
+                            <div>Healthy</div>
+
+                        </div>
+                    </div>
+
+
+
                 </div>
 
 
