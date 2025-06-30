@@ -26,12 +26,7 @@ const Footer = () => {
                         We beautifully combine handcrafted floral arrangements with freshly baked cake made from the finest ingredients.
 
                     </div>
-                    <div className='text-rod text-[1.5rem] flex gap-6 mt-6 '>
-                        <IoLogoFacebook />
-                        <LuInstagram />
-                        <FaXTwitter />
 
-                    </div>
 
                 </div>
 
@@ -58,6 +53,24 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
+
+            <div className='flex items-center justify-between'>
+                <div className='text-rod text-[1.5rem] flex gap-6 mt-6 '>
+                    <IoLogoFacebook />
+                    <LuInstagram />
+                    <FaXTwitter />
+
+                </div>
+                <div>
+                    <div className='text-white'>
+                        New Letters Subscription
+                    </div>
+                    <div className='flex gap-2 items-center mt-2'>
+                        <input type="text" className='bg-rod/40 border-2 rounded-xl h-[40px] border-rod outline-0  px-2 w-[320px] ' />
+                        <button className='bg-black/30 border-2 cursor-pointer border-black w-[40px] h-[40px] text-rod rounded-lg'>Go</button>
+                    </div>
+                </div>
+            </div>
             <div className='flex justify-between text-rod/50 mt-8'>
                 <div>
                     ©2025 Shoon & Myint All right reserved.
@@ -67,7 +80,6 @@ const Footer = () => {
                     <div>Terms of services</div>
                 </div>
             </div>
-
         </div>
     )
 }
