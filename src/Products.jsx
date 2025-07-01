@@ -81,15 +81,39 @@ const Products = () => {
                     <div className='h-[200px] mt-10 flex gap-4'>
                         <div className='w-1/3 bg-img2'>
                             <div className='bg-black/30 h-[40px] mt-40 '>
-                                <ul className='list-disc flex flex-col items-center gap-2 justify-center'>
+                                <ul className='list-disc flex flex-col items-center gap-2 justify-center h-full'>
                                     <li className='text-white'>NOTEBOOK</li>
                                 </ul>
                             </div>
 
 
                         </div>
-                        <div className='w-1/3 bg-img3'></div>
-                        <div className='w-1/3 bg-img4'></div>
+                        <div className='w-1/3 bg-img3'>
+                            <div className='bg-black/30 h-[40px] mt-40 '>
+                                <ul className='list-disc flex flex-col items-center gap-2 justify-center h-full'>
+                                    <li className='text-white'>NOTEBOOK</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div className='w-1/3 bg-img4'>
+                            <div className='bg-black/30 h-[40px] mt-40 '>
+                                <ul className='list-disc flex flex-col items-center gap-2 justify-center h-full'>
+                                    <li className='text-white'>NOTEBOOK</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div className='bg-amber-50 h-[400px] border-2 mt-10 '>
+                        <div className='flex justify-center text-center -mt-4 bg-white '>
+                            <div className=' h-[40px] text-black '>
+                                Today Deals
+                            </div>
+                        </div>
+
+
+
+
 
                     </div>
                 </div>
