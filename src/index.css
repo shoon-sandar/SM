@@ -54,3 +54,28 @@
   }
 
 }
+.bg-img{
+  background-image: url("./assets/Image/serviceImages/cakeGift.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.bg-img1{
+  background-image: url("./assets/Image/bg11.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.bg-img2{
+  background-image: url("./assets/Image/s1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.bg-img3{
+  background-image: url("./assets/Image/s2.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.bg-img4{
+  background-image: url("./assets/Image/s3.jpg");
+  background-position: center;
+  background-size: cover;
+}
