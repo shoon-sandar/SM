@@ -38,13 +38,13 @@ const Navbar = () => {
           <span className='text-[0.8rem] '>Floral & Cake</span>
         </div>
       </div>
-      <div className='text-white italiana'>
+      <div className='text-white italiana flex gap-2'>
         {
           navItems.map((nav) => (
             <Link
               to={nav.path}
               key={nav.path}
-              className={`${location.pathname === nav.path ? 'bg-rod/40' : 'hover:bg-black/40'} px-4 py-1 hover:bg-amber-50 rounded-2xl hover:text-black active:bg-amber-50/50`}>{nav.label}</Link>
+              className={`transition-all duration-150 ${location.pathname === nav.path ? 'bg-rod/40' : 'hover:bg-black/40'} px-4 py-1 hover:bg-amber-50 rounded-2xl hover:text-black active:bg-amber-50/50`}>{nav.label}</Link>
           ))
         }
       </div>
