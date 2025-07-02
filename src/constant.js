@@ -53,4 +53,34 @@ export const sale = [
 
 
 ]
+export const today=[
+    {
+        title: "Strawberry Cake",
+        time:"05:00:00",
+        disprice:"20000",
+        oriprice:"25000",
+        img:c1,
+    },
+    {
+        title: "Strawberry Cake",
+        time:"05:00:00",
+        disprice:"20000",
+        oriprice:"25000",
+        img:c1,
+    },
+    {
+        title: "Strawberry Cake",
+        time:"05:00:00",
+        disprice:"20000",
+        oriprice:"25000",
+        img:c1,
+    },
+    {
+        title: "Strawberry Cake",
+        time:"05:00:00",
+        disprice:"20000",
+        oriprice:"25000",
+        img:c1,
+    },
+]
 
