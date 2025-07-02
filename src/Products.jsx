@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar'
-import newItem from './newItem.jsx'
+import NewItem from './NewItem.jsx'
 import { arr, sale, today } from './constant.js'
 
 const Products = () => {
@@ -143,7 +143,7 @@ const Products = () => {
                         </div>
                     </div>
 
-                    <newItem
+                    <NewItem
                         newArr={today}
                     />
                 </div>
