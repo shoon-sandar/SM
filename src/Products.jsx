@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar'
 import NewItem from './NewItem.jsx'
-import { arr, sale, today } from './constant.js'
+import { arr, sale, today, newitem, best } from './constant.js'
 
 const Products = () => {
 
@@ -144,8 +144,14 @@ const Products = () => {
                     </div>
 
                     <NewItem
-                        newArr={today}
+                        title={"New Items"}
+                        newArr={newitem}
                     />
+                    <NewItem
+                        title={"Best Seller"}
+                        newArr={best}
+                    />
+
                 </div>
             </div>
             <div className='h-[30vh] w-full'></div>
